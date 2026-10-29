@@ -1,0 +1,46 @@
+[meta]
+name    = "JetBrains Darcula"
+author  = "Sketch"
+version = "0.2"
+
+[colors]
+# ── Application shell ─────────────────────────────────────────────────────────
+app_bg        = "#1B1B1B"   # dark surround / gutters between cards
+panel_bg      = "#3C3F41"   # card body - toolbox, canvas frame, layer panel, menu/toolbar (classic Darcula grey)
+surface       = "#4E5254"   # buttons, inputs - elevated above panel_bg
+surface_hover = "#5C6164"   # hovered surfaces
+active        = "#2F65CA"   # selected / checked state
+accent        = "#3574F0"   # JetBrains blue - focus rings, highlights
+accent_alt    = "#FF6B68"   # errors / origin cross
+
+# ── Text ──────────────────────────────────────────────────────────────────────
+text_primary   = "#DFE1E5"
+text_secondary = "#A9B7C6"
+text_disabled  = "#5C6164"
+
+# ── Borders ───────────────────────────────────────────────────────────────────
+border_subtle = "#2B2B2B"
+border        = "#555555"
+
+# ── Canvas ────────────────────────────────────────────────────────────────────
+canvas_bg    = "#3C3F41"   # matches card body - canvas frame is itself a card
+work_area    = "#FFFFFF"   # the "paper" the design sits on
+selection    = "#3574F0"
+preview      = "#808080"
+draw_color   = "#000000"
+origin_cross = "#FF6B68"
+
+# ── Ruler ─────────────────────────────────────────────────────────────────────
+ruler_bg         = "#363839"
+ruler_text       = "#A9B7C6"
+ruler_tick_major = "#A9B7C6"
+ruler_tick_minor = "#5C6164"
+
+[fonts]
+ui   = ["Segoe UI", 9]
+mono = ["Consolas", 9]
+
+[sizes]
+tool_btn = 40
+icon     = 22
+ruler    = 20

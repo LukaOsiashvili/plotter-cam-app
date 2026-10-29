@@ -1,0 +1,46 @@
+[meta]
+name    = "Slate"
+author  = "Built-in"
+version = "1.0"
+
+[colors]
+# ── Application shell ─────────────────────────────────────────────────────────
+app_bg        = "#1E1E1E"
+panel_bg      = "#252526"
+surface       = "#2D2D30"
+surface_hover = "#3E3E42"
+active        = "#094771"
+accent        = "#007ACC"
+accent_alt    = "#FF6B35"
+
+# ── Text ──────────────────────────────────────────────────────────────────────
+text_primary   = "#CCCCCC"
+text_secondary = "#858585"
+text_disabled  = "#555555"
+
+# ── Borders ───────────────────────────────────────────────────────────────────
+border_subtle = "#333333"
+border        = "#454545"
+
+# ── Canvas ────────────────────────────────────────────────────────────────────
+canvas_bg    = "#2B2B2B"
+work_area    = "#FFFFFF"
+selection    = "#FF6B00"
+preview      = "#888888"
+draw_color   = "#000000"
+origin_cross = "#E94560"
+
+# ── Ruler ─────────────────────────────────────────────────────────────────────
+ruler_bg         = "#D0D0D0"
+ruler_text       = "#111111"
+ruler_tick_major = "#222222"
+ruler_tick_minor = "#777777"
+
+[fonts]
+ui   = ["Segoe UI", 9]
+mono = ["Courier New", 9]
+
+[sizes]
+tool_btn = 40
+icon     = 22
+ruler    = 20

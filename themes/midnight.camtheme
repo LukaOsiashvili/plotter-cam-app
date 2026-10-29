@@ -1,0 +1,46 @@
+[meta]
+name    = "Midnight CAM"
+author  = "Built-in"
+version = "1.0"
+
+[colors]
+# ── Application shell ─────────────────────────────────────────────────────────
+app_bg        = "#111318"   # main window background
+panel_bg      = "#1A1D24"   # toolbars, side panels, dock titles
+surface       = "#22262F"   # buttons, inputs, interactive surfaces
+surface_hover = "#2A3040"   # hovered surfaces
+active        = "#1D3461"   # selected / checked state
+accent        = "#4CC9F0"   # focus rings, highlights
+accent_alt    = "#F72585"   # origin cross, warnings
+
+# ── Text ──────────────────────────────────────────────────────────────────────
+text_primary   = "#E8EAF0"
+text_secondary = "#8890A0"
+text_disabled  = "#444A58"
+
+# ── Borders ───────────────────────────────────────────────────────────────────
+border_subtle = "#2A2E38"
+border        = "#383D4A"
+
+# ── Canvas ────────────────────────────────────────────────────────────────────
+canvas_bg    = "#1A1D24"   # dark surround outside the work area
+work_area    = "#FAFAFA"   # the "paper" the design sits on
+selection    = "#4CC9F0"   # selected shape outline
+preview      = "#6C7A9C"   # dashed preview while drawing
+draw_color   = "#000000"   # default colour for newly drawn shapes
+origin_cross = "#F72585"   # X/Y origin marker
+
+# ── Ruler ─────────────────────────────────────────────────────────────────────
+ruler_bg         = "#1E2128"
+ruler_text       = "#8890A0"
+ruler_tick_major = "#8890A0"
+ruler_tick_minor = "#444A58"
+
+[fonts]
+ui   = ["Segoe UI", 9]
+mono = ["Courier New", 9]
+
+[sizes]
+tool_btn = 40
+icon     = 22
+ruler    = 20

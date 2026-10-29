@@ -1,0 +1,46 @@
+[meta]
+name    = "JetBrains Light Cards"
+author  = "Sketch"
+version = "0.1"
+
+[colors]
+# ── Application shell ─────────────────────────────────────────────────────────
+app_bg        = "#18191B"   # dark surround / gutters between cards
+panel_bg      = "#E3E4E7"   # card body - toolbox, canvas frame, layer panel, menu/toolbar
+surface       = "#EDEEF0"   # buttons, inputs - elevated above panel_bg
+surface_hover = "#D7D9DC"   # hovered surfaces
+active        = "#CFE0FA"   # selected / checked state (light blue chip)
+accent        = "#3574F0"   # JetBrains blue - focus rings, highlights
+accent_alt    = "#D32F2F"   # errors / origin cross
+
+# ── Text ──────────────────────────────────────────────────────────────────────
+text_primary   = "#1F1F22"
+text_secondary = "#55575B"
+text_disabled  = "#A0A2A6"
+
+# ── Borders ───────────────────────────────────────────────────────────────────
+border_subtle = "#CACCCF"
+border        = "#B0B2B6"
+
+# ── Canvas ────────────────────────────────────────────────────────────────────
+canvas_bg    = "#E3E4E7"   # matches card body - canvas frame is itself a card
+work_area    = "#FFFFFF"   # the "paper" the design sits on - brighter than the card
+selection    = "#3574F0"
+preview      = "#8A8D91"
+draw_color   = "#000000"
+origin_cross = "#D32F2F"
+
+# ── Ruler ─────────────────────────────────────────────────────────────────────
+ruler_bg         = "#DADBDE"
+ruler_text       = "#55575B"
+ruler_tick_major = "#55575B"
+ruler_tick_minor = "#A0A2A6"
+
+[fonts]
+ui   = ["Segoe UI", 9]
+mono = ["Consolas", 9]
+
+[sizes]
+tool_btn = 40
+icon     = 22
+ruler    = 20

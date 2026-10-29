@@ -1,0 +1,46 @@
+[meta]
+name    = "Light"
+author  = "Built-in"
+version = "1.0"
+
+[colors]
+# ── Application shell ─────────────────────────────────────────────────────────
+app_bg        = "#F0F0F0"
+panel_bg      = "#E4E4E4"
+surface       = "#FFFFFF"
+surface_hover = "#F5F5F5"
+active        = "#CCE4F7"
+accent        = "#0078D4"
+accent_alt    = "#D13438"
+
+# ── Text ──────────────────────────────────────────────────────────────────────
+text_primary   = "#1A1A1A"
+text_secondary = "#666666"
+text_disabled  = "#AAAAAA"
+
+# ── Borders ───────────────────────────────────────────────────────────────────
+border_subtle = "#DCDCDC"
+border        = "#C0C0C0"
+
+# ── Canvas ────────────────────────────────────────────────────────────────────
+canvas_bg    = "#787878"   # grey surround so the white work area stands out
+work_area    = "#FFFFFF"
+selection    = "#0078D4"
+preview      = "#999999"
+draw_color   = "#000000"
+origin_cross = "#D13438"
+
+# ── Ruler ─────────────────────────────────────────────────────────────────────
+ruler_bg         = "#D8D8D8"
+ruler_text       = "#333333"
+ruler_tick_major = "#333333"
+ruler_tick_minor = "#888888"
+
+[fonts]
+ui   = ["Segoe UI", 9]
+mono = ["Courier New", 9]
+
+[sizes]
+tool_btn = 40
+icon     = 22
+ruler    = 20

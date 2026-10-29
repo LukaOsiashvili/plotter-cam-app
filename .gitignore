@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE / tools
+.idea/
+.vscode/
+.claude/settings.local.json
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Local work files (exports, test jobs, saved projects, scratch)
+/*.gcode
+/*.nc
+/*.dcam
+/parts_data.json
+/scratch_*
